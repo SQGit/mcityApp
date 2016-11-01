@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">mCity</string>
+    <string name="username">Username</string>
+    <string name="Phonenumber">Phone Number</string>
+    <string name="password">OTP</string>
+    <string name="Submit">Submit</string>
+    <string name="conpassword">Retype Password</string>
+    <string name="email">Email</string>
+    <string name="location">Location</string>
+    <string name="terms"><![CDATA[By Login an account, you agree to Mcity\'s Terms & Conditions,Privacy Policy and Content Policies.]]></string>
+
+    <string name="termsreg"><![CDATA[By Register an account,you agree to Mcity\'s terms & conditions,Privacy Policy and Content Policies.]]></string>
+    <string name="minValue">Min Value In Rs</string>
+    <string name="maxValue">Max Value In Rs</string>
+    <string name="projectdescription">Property Description</string>
+    <string name="address">City</string>
+    <string name="Landmark">Landmark</string>
+    <string name="city">City</string>
+    <string name="Montrhlyamt">Monthly Rent Amount</string>
+    <string name="depositamount">Deposit Amount</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+</resources>

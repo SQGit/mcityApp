@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mcity.com.mcity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Login"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+
+        <activity android:name=".OfferRide"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+
+        <activity android:name=".AdvancedSearch"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+        <activity android:name=".MRental"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+
+        <activity android:name=".Dashboard"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+
+        </activity>
+
+        <activity android:name=".Signup"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+        <activity android:name=".PostHouse"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+
+
+        </activity>
+
+        <activity android:name=".PostPG"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".HouseHistory"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+
+        <activity android:name=".MRentalPost"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+
+
+        <activity android:name=".MPostHistory"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".SearchHouse"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+
+        </activity>
+
+        <activity android:name=".MorePOst"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity android:name=".SearchPg"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+
+        <activity android:name=".PGHistory"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+        <activity android:name=".SearchResult"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+        <activity android:name=".SearchHouseFilter"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+
+        <activity android:name=".SearchPGFilter"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+        <activity android:name=".RideSearch"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+
+
+        </activity>
+
+
+        <activity android:name=".TrainSearch"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+
+        </activity>
+
+
+
+        <activity android:name=".MyRideHistory"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+
+        </activity>
+
+
+        <activity android:name=".TrainTime"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan">
+        </activity>
+
+
+
+        <activity
+            android:name="nl.changer.polypicker.ImagePickerActivity" />
+
+
+
+
+        <activity android:name="me.iwf.photopicker.PhotoPickerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            />
+    </application>
+
+</manifest>
